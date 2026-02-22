@@ -210,7 +210,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-gray-200 py-6 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap gap-4 text-xs text-gray-600 mb-4">
+          <div className="flex flex-wrap gap-4 text-2xs text-gray-600 mb-4">
             <a href="#" className="hover:text-blue-600">Français (France)</a>
             <span>•</span>
             <a href="#" className="hover:text-blue-600">Malagasy</a>
@@ -227,7 +227,7 @@ export default function Home() {
             <span>•</span>
             <a href="#" className="hover:text-blue-600">Autres langues...</a>
           </div>
-          <div className="border-t border-gray-200 pt-4 flex flex-wrap gap-4 text-xs text-gray-700">
+          <div className="border-t border-gray-200 pt-4 flex flex-wrap gap-4 text-2xs text-gray-700">
             <a href="#" className="hover:text-blue-600">S'inscrire</a>
             <span>•</span>
             <a href="#" className="hover:text-blue-600">Se connecter</a>
@@ -249,6 +249,38 @@ export default function Home() {
             <a href="#" className="hover:text-blue-600">Meta AI</a>
             <span>•</span>
             <a href="#" className="hover:text-blue-600">Plus de contenu Meta AI</a>
+          </div>
+          <div className="pt-4 flex flex-wrap gap-4 text-2xs text-gray-700">
+            <a href="#" className="hover:text-blue-600">Instagram</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Threads</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Centre d'information sur les élections</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Politique de confidentialité</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Centre de confidentialité</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">À propos</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Créer une publicité</a>
+          </div>
+          <div className="pt-4 flex flex-wrap gap-4 text-2xs text-gray-700">
+            <a href="#" className="hover:text-blue-600">Créer une Page</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Développeurs</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Emplois</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Cookies</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Choisir sa publicité</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Conditions générales</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Aide</a>
+            <span>•</span>
+            <a href="#" className="hover:text-blue-600">Importation des contacts et non-utilisateurs</a>
           </div>
           <p className="text-xs text-gray-700 mt-4">Meta © 2026</p>
         </div>
