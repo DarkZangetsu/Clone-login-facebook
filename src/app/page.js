@@ -81,6 +81,17 @@ export default function Home() {
         {/* Right Section - Login Form */}
         <div className="flex flex-col items-center justify-center px-8 py-12 lg:py-0 lg:col-span-1 bg-white border-l border-gray-200">
           <div className="w-full max-w-md">
+            {/* Facebook Logo - Mobile Only */}
+            <div className="lg:hidden flex justify-center mb-6">
+              <Image
+                src="/facebook.png"
+                alt="Facebook"
+                width={60}
+                height={60}
+                className="w-16 h-16"
+              />
+            </div>
+
             {/* Title */}
             <h2 className="text-left text-xl text-black mb-6">
               Se connecter à Facebook
